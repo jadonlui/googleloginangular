@@ -1,8 +1,9 @@
 {{ title }}
 <nav>
-
   <!-- <div *ngif="googlelog">
     {{ googlelog }}
   </div> -->
   <button (click)="showlist()">Google Login</button>
+
+  <div [innerHTML]="show"> </div>
 </nav>
